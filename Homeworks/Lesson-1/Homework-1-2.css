@@ -4,3 +4,6 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+p{
+    background-color:rgba(247, 240, 237, 0.9) ;
+}
