@@ -4,11 +4,16 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-p{
-    background-color:rgba(247, 240, 237, 0.9);
+h1, p{
+    background-color: rgba(247, 240, 237, 0.9);
     width: 60%;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
+
 h1{background-color:rgba(247, 240, 237, 0.9);
+    display:inline-block;
 
 
 }
