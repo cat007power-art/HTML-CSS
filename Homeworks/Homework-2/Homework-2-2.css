@@ -1,0 +1,41 @@
+body{
+    background: #465725;
+    margin: 0;
+    padding: 20px;
+}
+.month-card {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:12px;
+    width: 190px;
+    height: 190px;
+    padding: 10px;
+    align-items:center;
+    flex-direction: column;
+    background-color: #9ccf3b;
+    margin:4px 10px;
+}
+.month-card h2{
+    text-align: left;
+    font-size: medium;
+}
+.month-card p{
+    font-size: 15px;
+    justify-content: left;
+    margin: 6px 0;
+}
+.month-card h2,
+.month-card p {
+    width: 100%;
+    text-align: left;
+}
+.wrapper{
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+
+
