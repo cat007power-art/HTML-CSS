@@ -1,0 +1,40 @@
+body{
+    background:whitesmoke;
+    margin: 0;
+    padding:0;
+}
+.box-font-one,.box-font-two,.box-font-three,.box-font-four,.box-font-five{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 190px;
+    padding: 10px;
+    background-color: lightpink;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.box-font-one{
+    font-family:"rubik pixels",system-ui;
+}
+.box-font-two{
+    font-family:"Sedgwick Ave Display", cursive;
+}
+.box-font-three{
+font-family: "Dancing Script", cursive;
+}
+.box-font-four{
+    font-family: "Fjalla One", sans-serif;
+}
+.box-font-five{
+    font-family: "Indie Flower", cursive;
+}
