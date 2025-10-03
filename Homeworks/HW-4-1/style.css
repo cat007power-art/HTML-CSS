@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding:0;
 }
 header, footer{
     height: 22vh;
@@ -14,6 +15,20 @@ section{
 height: 56vh;
 width: 46vw;
 }
-section h2{
-
+main{
+    display: flex;
+}
+main div{
+    width: 46vw;
+    height: 56vh;
+}
+.main__div-top-section{
+    background: #827878;
+    width: 100%;
+    height: 40%;
+}
+.main__div-bottom-section{
+    background: #B7ADAD;
+    width: 100%;
+    height: 60%;
 }
