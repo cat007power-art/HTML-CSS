@@ -142,6 +142,7 @@ ul a{
     width: 196px;
     height: 60px;
     cursor: pointer;
+    margin-bottom: 36px;
 }
 .bottom-button-wrapper {
     display: flex;
