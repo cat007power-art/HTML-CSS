@@ -137,6 +137,29 @@ ul a{
     text-transform: uppercase;
     margin: 64px 222px auto 223px;
 }
+.bottom-button{
+    background: #D1EF53;
+    width: 196px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.bottom-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.bottom-button-content{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
 
 
 
