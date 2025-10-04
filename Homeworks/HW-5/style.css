@@ -48,7 +48,7 @@ ul a{
     color: #E9E3DC;
     text-align: center;
     font-family: "Bowlby One", sans-serif;
-    font-size: 107.088px;
+    font-size: 107px;
     font-style: normal;
     font-weight: 400;
     line-height: 88.896%; /* 95.198px */
@@ -83,19 +83,22 @@ ul a{
     font-weight: 600;
     line-height: 139.896%; /* 33.575px */
     letter-spacing: -0.48px;
+    margin-top: 40px;
+    margin-right: 149px;
+    margin-bottom: 194px;
 }
 .card-left{
     width: 533px;
     color: #1E1E1E;
-    font-family: "Bowlby One",sans-serif;;
+    font-family: "Bowlby One",sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: 88.896%; /* 62.228px */
     letter-spacing: -1.4px;
     text-transform: uppercase;
+    margin-left: 109px;
 }
-
 .action-button {
     width: 176px;
     height: 60px;
@@ -103,6 +106,16 @@ ul a{
     background: #E9E3DC;
     /* DropShadow */
     box-shadow: 8px 8px 0 0 #000;
+    margin-top: 34px;
+    cursor: pointer;
+}
+.button-content {
+    color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 
