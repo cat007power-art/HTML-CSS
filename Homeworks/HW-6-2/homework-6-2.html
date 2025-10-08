@@ -6,30 +6,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="logo-box">
-<div class="logo">
-    <img src="img/logo.png" alt="instagram logo">
-</div>
 
+<div class="form-wrapper">
     <form class="login-form">
+        <div class="form-logo-header">
+            <h2>Instagram</h2>
+        </div>
         <label for="name"></label>
         <input type="text" name="login" id="name" placeholder="Номер телефону, ім'я користувача або email" required>
-
         <label for="password"></label>
         <input type="password" name="password" id="password" placeholder="Пароль" required>
-    <button class="login-button">Увійти</button>
+
+        <button class="login-button">Увійти</button>
+        <p class="or">АБО</p>
+
+        <div class="facebook-button">
+            <button type="button" class="facebook-login">Увійти через Facebook</button>
+            <a href="#" class="forgot-password">Забули пароль?</a>
+        </div>
     </form>
-    <p>АБО</p>
-    <div class="facebook-button">
-    <button class="facebook-login">Увійти через Facebook</button>
-    <a href="#" class="forgot-password">Забули пароль?</a>
-    </div>
 
-
-    <div class="signup-box">Не маєте облікового запису? <a href="#">
-        Зареєструйтеся</a>
+    <div class="signup-box">
+        Не маєте облікового запису? <a href="#">Зареєструйтеся</a>
     </div>
 </div>
 
 </body>
 </html>
+
