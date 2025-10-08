@@ -1,11 +1,11 @@
 body{
-margin: 0;
-padding: 0;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #1d716a;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d716a;
 }
 
 label{
@@ -13,30 +13,34 @@ label{
     margin-top: 10px;
     border-radius: 0;
     border: none;
-
 }
 
 .form-registration {
     background-color: white;
-    padding: 20px;
     margin: 40px 20px;
     border-radius: 10px;
-    width: 260px;
+    width: 350px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 4px;
+    overflow: hidden;
 }
 
 input[type="email"],
 input[type="password"]{
     border-radius: 0;
     border: 1px solid black;
-    padding: 10px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 2px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 .form-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .form-bottom input[type="submit"] {
@@ -47,6 +51,40 @@ input[type="password"]{
     border: black solid 1px;
     cursor: pointer;
 }
+
+.newsletter-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-header {
+    background-color: rgba(147, 241, 232, 0.85);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+}
+
+.form-body{
+    padding: 0 16px 24px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
