@@ -90,14 +90,18 @@ input[type="password"] {
     margin-top: 10px;
     width: 100%;
 }
-
-
 .or {
     text-align: center;
     color: #717070;
     font-size: 14px;
     margin: 20px 0 10px;
 }
+.login-form,
+.signup-box {
+    width: 350px;
+    box-sizing: border-box;
+}
+
 
 
 
