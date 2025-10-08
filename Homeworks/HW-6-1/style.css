@@ -1,0 +1,55 @@
+body{
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1d716a;
+}
+
+label{
+    display:block;
+    margin-top: 10px;
+    border-radius: 0;
+    border: none;
+
+}
+
+.form-registration {
+    background-color: white;
+    padding: 20px;
+    margin: 40px 20px;
+    border-radius: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="email"],
+input[type="password"]{
+    border-radius: 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+.form-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-bottom input[type="submit"] {
+    padding: 12px 26px;
+    border-radius: 10px;
+    background-color: rgba(147, 241, 232, 0.85);
+    color: black;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+

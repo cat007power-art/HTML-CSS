@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>hw-6-1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="form-registration">
 <label for="email"></label>
 <input type="email" name="email" id="email" placeholder="Логін або email" required>
 
 <label for="password"></label>
 <input type="password" name="password" id="password" placeholder="Пароль" required>
 
-<label>
-    <input type="checkbox" name="Newsletter">Підписатись на новини
+    <div class="form-bottom">
+<label class="newsletter-label">Запам'ятати мене
+    <input type="checkbox" name="Newsletter">
 </label>
-
 <div>
-    <input type="submit" value="Вхід">
+    <input type="submit" value="Вхід"></div>
 </div>
+</div>
+
+
+
+
+
 
 </body>
 </html>
