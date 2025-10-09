@@ -12,20 +12,19 @@ body {
 .login-form {
     background-color: white;
     border: 1px solid #dbdbdb;
-    padding: 40px;
-    width: 300px;
+    padding: 40px 20px 20px;
+    width: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    box-sizing: border-box;
 }
-.logo {
-    margin-bottom: 20px;
-}
+
 .logo-header {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .logo-header h2 {
     font-size: 28px;
     font-weight: 500;
@@ -101,6 +100,23 @@ input[type="password"] {
     width: 350px;
     box-sizing: border-box;
 }
+.facebook-login::before {
+    content: url('https://via.placeholder.com/16');
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.facebook-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
 
 
 
