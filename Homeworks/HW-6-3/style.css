@@ -1,3 +1,11 @@
 .box-one li:nth-child(even) {
     color: pink;
 }
+.box-two li:nth-child(odd) {
+    font-size: 22px;
+}
+.box-three li:nth-child(2n+4)::after {
+    content: "!";
+    font-weight: bold;
+    margin-left: 4px;
+}
