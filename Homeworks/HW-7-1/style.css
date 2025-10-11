@@ -25,7 +25,6 @@ body{
     border: 4px solid #554C4C;
     background: rgba(217, 217, 217, 0.30);
     position: relative;
-    gap: 54px;
     overflow: visible;
 }
 .icon{
@@ -48,5 +47,24 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 1;
+}
+h3{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+p{
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 211px;
 }
 
