@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.card{
+    width: 319px;
+    height: 492px;
+
+
+}
