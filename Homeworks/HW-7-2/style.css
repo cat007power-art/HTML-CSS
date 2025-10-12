@@ -137,6 +137,7 @@ header h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 .icons{
     width: 100%;
@@ -150,7 +151,7 @@ header h2{
     align-items: center;
     gap: 18px;
 }
-.icon:nth-child(1){
+.icon div:nth-child(1){
     border-radius: 8px;
     width: 56.144px;
     height: 56px;
@@ -158,36 +159,58 @@ header h2{
     justify-content: center;
     align-items: center;
 }
-.icons:nth-of-type(1) .icon > div {
+
+.icon:nth-child(1) div:nth-child(1){
     background: #FF6853;
 }
-.icons:nth-of-type(2) .icon > div {
+.icon:nth-child(2) div:nth-child(1){
     background: #FF537C;
 }
-.icons:nth-of-type(3) .icon > div {
+.icon:nth-child(3) div:nth-child(1){
     background: #80D2C4;
 }
-.icons:nth-of-type(4) .icon > div {
+.icon:nth-child(4) div:nth-child(1){
     background: #3F50E7;
 }
-.icons:nth-of-type(5) .icon > div {
+.icon:nth-child(5) div:nth-child(1){
     background: #95CB7C;
 }
-.icons h4 {
+.icon div:nth-child(2) h4{
     color: #FFF;
     font-family: Inter, sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
 }
-
-.icons p {
-    color: #8E88C1;
+.icon div:nth-child(2) p{
+    color:  #8E88C1;
     font-family: Inter, sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.8px;
 }
-
-
-
+.w-1153-lorem-ipsum h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    width: 1074px;
+    margin: 50px 0;
+}
+.w-1153-lorem-ipsum>p{
+    color:  #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    margin-bottom: 50px;
+}
