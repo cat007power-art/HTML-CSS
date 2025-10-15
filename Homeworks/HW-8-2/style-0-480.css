@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+    .icons {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 20px;
+    }
+
+    .icon {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .icon img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .icon-text,
+    .icon p,
+    .icon-text-lorem {
+        text-align: left;
+    }
+}
+
+
+
