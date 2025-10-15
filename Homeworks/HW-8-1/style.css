@@ -1,0 +1,39 @@
+.photos {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    width: calc(33.333% - 27px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.card p {
+    margin: 12px 0;
+
+}
+.card p:first-of-type {
+    font-weight: bold;
+    font-size: 20px;
+}
+.card p:nth-of-type(2) {
+    font-family: 'Courier New', monospace;
+}
+
+
+
+
+
+
+
