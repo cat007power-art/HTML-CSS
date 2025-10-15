@@ -6,13 +6,11 @@
     justify-content: space-between;
     gap: 40px;
 }
-
 .card {
-    width: calc(33.333% - 27px);
+    width: 30%;
     box-sizing: border-box;
     text-align: center;
 }
-
 .card img {
     width: 400px;
     height: 300px;
@@ -20,9 +18,11 @@
     border-radius: 12px;
 }
 .card p {
-    margin: 12px 0;
-
+    margin: 12px auto;
+    width: 100%;
+    text-align: center;
 }
+
 .card p:first-of-type {
     font-weight: bold;
     font-size: 20px;
