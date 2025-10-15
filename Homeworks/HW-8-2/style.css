@@ -1,0 +1,39 @@
+.icons {
+    margin: 80px auto;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    width: 200px;
+    text-align: left;
+}
+
+.icon img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    margin: 12px 0;
+    text-align: justify;
+}
+.icon p:first-of-type{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
