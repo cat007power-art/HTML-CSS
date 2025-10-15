@@ -3,21 +3,17 @@
         gap: 20px;
         justify-content: center;
     }
-
     .card {
         width: 100%;
     }
-
     .card img {
         width: 100%;
         height: auto;
     }
-
     .card p {
         width: 100%;
         font-size: 16px;
     }
-
     .card p:first-of-type {
         font-size: 18px;
     }
