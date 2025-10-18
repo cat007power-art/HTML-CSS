@@ -39,20 +39,25 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
-
-.section-up{
+.section-up {
+    flex: 1;
     background: #827878;
-}
-.section-bottom{
-    background: #B7ADAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-footer{
+.section-bottom {
+    flex: 1;
+    background: #B7ADAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
     grid-area: footer;
     background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
