@@ -5,6 +5,10 @@
 }
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .preloader{
     width: 100vw;
@@ -21,11 +25,11 @@ width: 40px;
     animation: spin 1s linear infinite;
     border-top: 4px solid transparent;
 }
-@keyframes spin{
-    from{
-        transform:rotate(0deg);
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
-    to{
-        transform:rotate(360deg);
+    to {
+        transform: rotate(360deg);
     }
 }

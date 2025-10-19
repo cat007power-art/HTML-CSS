@@ -9,11 +9,6 @@
 body{
     font-family: "Indie Flower", cursive;
 }
-section{
-    height: 100vh;
-    text-align: center;
-}
-
 #section-top{
     background-color: #b6491a;
 }
@@ -33,6 +28,8 @@ section p{
     color: black;
 }
 section {
+    height: 100vh;
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
