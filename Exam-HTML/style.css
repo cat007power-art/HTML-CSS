@@ -6,12 +6,15 @@
     list-style-type: none;
 }
 body{
-    background-color: #e6e2e2;
+    background-color: #EFF0F3;
 }
 
 .w-1440{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 40px;
+
 }
 header {
     display: flex;
@@ -24,6 +27,9 @@ header {
 
 .header-left{
     flex: 1;
+    padding-right: 20px;
+
+
 }
 
 .header-center{
@@ -34,15 +40,11 @@ header {
 }
 
 .header-right{
-    flex: 0;
-    gap: 50px;
-}
-nav ul{
     display: flex;
-    gap: 40px;
+    gap: 50px;
+    padding-left: 40px;
+
 }
-
-
 header nav{
     display: flex;
     justify-content: center;
@@ -69,7 +71,6 @@ header nav ul li a{
     color: #2B2C34;
 }
 
-
 .coffee-button{
     width: 213px;
     height: 44px;
@@ -81,20 +82,33 @@ header nav ul li a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
-.hero{
-    display: flex;
-    justify-content: space-between;
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding-top: 80px;
     align-items: center;
-    padding-top: 68px;
-    gap: 116px;
 }
+.hero-left {
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+
+.hero-right {
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 120px;
+}
+
 .hero div h1{
     color: #19191B;
     font-family: "DM Sans", sans-serif;
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
-    line-height: 77px; /* 102.667% */
+    line-height: 77px;
     letter-spacing: -2.501px;
 }
 .hero div p{
@@ -110,25 +124,10 @@ header nav ul li a{
     height: 56px;
     gap: 12px;
 }
-.hero button{
-    width: 188.211px;
-    height: 60px;
-    border-radius: 10px;
-    background: #5454D4;
-    color: #FFF;
-    text-align: center;
-    font-family: "Mulish", sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: -0.531px;
-    border: none;
-}
 
 .hero img{
     width: 470px;
     height: 387px;
-    top: 250px;
-    left: 875px;
     opacity: 1;
 }
 .subscribe-form {
@@ -140,7 +139,6 @@ header nav ul li a{
     height: 60px;
 }
 
-
 .subscribe-form input {
     flex: 1;
     height: 100%;
@@ -151,8 +149,9 @@ header nav ul li a{
     font-family: "Mulish", sans-serif;
 }
 
-.subscribe-form button {
-    height: 100%;
+.subscribe-form button{
+    height: 67px;
+    width: 145px;
     padding: 0 30px;
     background: #5454D4;
     color: #fff;
