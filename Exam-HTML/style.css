@@ -13,15 +13,35 @@ body{
     width: 1440px;
     margin: 0 auto;
 }
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     font-family: "DM Sans", sans-serif;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header-left{
+    flex: 1;
+}
+
+.header-center{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 
 }
+
+.header-right{
+    flex: 0;
+    gap: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
 
 header nav{
     display: flex;
@@ -34,9 +54,25 @@ header nav ul{
     align-items: center;
     gap:50px;
 }
+header nav ul li a{
+    font-family: "Plus Jacarta Sans", sans-serif;
+    font-weight: 700;
+    color: #2B2C34;
+
+}
+.search-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Plus Jacarta Sans", sans-serif;
+    font-weight: 700;
+    color: #2B2C34;
+}
+
+
 .coffee-button{
-    width: 211.02px;
-    height: 60px;
+    width: 213px;
+    height: 44px;
     border-radius: 10px;
     background: #6246EA;
     border: none;
