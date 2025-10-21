@@ -222,13 +222,57 @@ header nav ul li a{
     color: #FFFFFE;
 }
                               /*Featured article*/
+.featured-article{
+    margin-top: 150px;
+}
 
-.article-grid {
+.article-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 32px;
     margin-top: 24px;
 }
+
+.article{
+    width: 300px;
+    height: 425px;
+    position: relative;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.article-info{
+    position: absolute;
+    top: 328px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-link{
+    width: 162px;
+    height: 25px;
+    font-weight: 700;
+    color: #2B2C34;
+    transition: color 0.3s ease;
+}
+
+.section-link:hover{
+    color: #4f46e5;
+}
+
+
+
 
 
 
