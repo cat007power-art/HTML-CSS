@@ -145,7 +145,6 @@ header nav ul li a{
     border: 1px solid #ddd;
     border-radius: 10px;
     font-size: 17px;
-    font-family: "Mulish", sans-serif;
 }
 
 .subscribe-form button{
@@ -158,7 +157,6 @@ header nav ul li a{
     border-radius: 10px;
     font-size: 17px;
     font-weight: 700;
-    font-family: "Mulish", sans-serif;
     cursor: pointer;
 }
 .text-frame {
@@ -285,7 +283,22 @@ header nav ul li a{
 .React-articles {
     margin-top: 100px;
 }
-
+                          /*MORE ARTICLE BUTTON*/
+.more-article-button-wrapper{
+    text-align: center;
+    margin-top: 100px;
+}
+.more-article-button{
+    width: 165px;
+    height: 64px;
+    background: #6246EA;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
 
