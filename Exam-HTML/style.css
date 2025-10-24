@@ -83,6 +83,9 @@ header nav ul li a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
+.coffee-button:hover{
+    background-color: #4400CC;
+}
                    /*СЕЦИЯ ХИРО С ТЕКСТОМ И КАРТИНКОЙ*/
 .hero{
     display: grid;
@@ -159,6 +162,10 @@ header nav ul li a{
     font-size: 17px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.subscribe-form button:hover{
+    background-color: #4400CC;
 }
 .text-frame {
     border-left: 4px solid #000;
@@ -308,6 +315,9 @@ header nav ul li a{
     font-weight: 700;
     cursor: pointer;
 }
+.more-article-button:hover{
+    background-color: #4400CC;
+}
 
                         /*КРУЖОЕЧЕК С ПОЧТОВЫМ ЯЩИКОМ*/
 
@@ -437,6 +447,7 @@ header nav ul li a{
 .bottom-section-wrapper {
     background: #E4E5E9;
     width: 100%;
+    height: 453px;
 }
 .bottom-column,
 .logo-column {
@@ -448,7 +459,6 @@ header nav ul li a{
     gap: 20px; /* регулируй по макету */
     margin-top: 50px;
 }
-
 
 .bottom-section {
     max-width: 1440px;
@@ -495,7 +505,6 @@ header nav ul li a{
     list-style: none;
 }
 
-
 .social-icons a {
     margin-right: 20px; /* регулируй по макету */
 }
@@ -503,17 +512,61 @@ header nav ul li a{
 .social-icons a:last-child {
     margin-right: 0;
 }
-
-
-
-
-
-
-
+.bottom-column h4,
+.logo-column h4 {
+    font-size: 20px; /* регулируй по макету */
+    font-weight: 700; /* если нужен акцент */
+    margin: 0; /* сброс лишнего отступа */
+}
 
 
 
 /*ФУТЕР*/
+.footer-bar {
+    background-color: #E4E5E9;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.footer-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+}
+.footer-inner p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+
+
+.footer-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40px; /* такой же отступ, как у .bottom-section */
+    right: 40px;
+    height: 1px;
+    background-color: #C0C0C0;
+}
+
+.footer-inner p {
+    width: 137px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B2C34;
+    top: 391px;
+    left: 95px;
+
+    margin: 0;
+   
+}
+
+
 
 
 
