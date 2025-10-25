@@ -146,9 +146,12 @@ header nav ul li a{
     flex: 1;
     height: 100%;
     padding: 0 20px;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 10px;
     font-size: 17px;
+}
+.subscribe-form input:focus{
+    outline: none;
 }
 
 .subscribe-form button{
@@ -215,22 +218,22 @@ header nav ul li a{
     justify-content: flex-start;
     align-items: flex-start;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
-
 }
+
+.card:hover{
+    background-color: #6246EA;
+}
+
 .card-content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
 .card img{
     margin: 65px auto 95px 30px;
     object-fit: cover;
 }
-.categories-grid .card:nth-child(3){
-    background-color: #6246EA;
-    color: #FFFFFE;
-}
+
                               /*Featured article*/
 .articles-wrapper{
     background-color: #FFFFFE;
@@ -294,7 +297,7 @@ header nav ul li a{
                               /*<!--<-СЕКЦИЯ CSS-->*/
 
 .CSS-articles{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
                          /*<!--  СЕКЦИЯ ДЖАВАСКРИПТ-->*/
