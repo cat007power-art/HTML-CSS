@@ -152,7 +152,7 @@ header nav ul li a{
 }
 
 .subscribe-form button{
-    height: 67px;
+    height: 60px;
     width: 145px;
     padding: 0 30px;
     background: #5454D4;
@@ -372,7 +372,6 @@ header nav ul li a{
     height: 70px;
     object-fit: contain;
 }
-
 .postbox-circle{
     width: 100px;
     height: 100px;
@@ -436,7 +435,6 @@ header nav ul li a{
     font-weight: 700;
     cursor: pointer;
 }
-
 .subscribe-form-1 button:hover{
     background-color: #4400CC;
 }
@@ -444,20 +442,18 @@ header nav ul li a{
 
 
                               /*БОТТОМ С КОЛОНКАМИ*/
-.bottom-section-wrapper {
+.bottom-section-wrapper{
     background: #E4E5E9;
     width: 100%;
     height: 453px;
 }
-
-.bottom-column {
+.bottom-column{
     display: flex;
     flex-direction: column;
-    gap: 20px; /* регулируй по макету */
+    gap: 20px;
     margin-top: 50px;
 }
-
-.bottom-section {
+.bottom-section{
     max-width: 1440px;
     margin: 0 auto;
     height: 435px;
@@ -467,34 +463,28 @@ header nav ul li a{
     column-gap: 40px;
     align-items: start;
 }
-
-.logo {
-    margin-bottom: 16px; /* регулируй по макету */
+.logo{
+    margin-bottom: 16px;
 }
-
-.logo-column {
+.logo-column{
     grid-column: 1;
 }
-.logo-column p {
-    margin-bottom: 16px; /* регулируй по макету */
+.logo-column p{
+    margin-bottom: 16px;
 }
-
-.bottom-column:nth-of-type(2) {
+.bottom-column:nth-of-type(2){
     grid-column: 3;
 }
-
-.bottom-column:nth-of-type(3) {
+.bottom-column:nth-of-type(3){
     grid-column: 4;
 }
-
-.bottom-column:nth-of-type(4) {
+.bottom-column:nth-of-type(4){
     grid-column: 5;
 }
-
-.bottom-column:nth-of-type(5) {
+.bottom-column:nth-of-type(5){
     grid-column: 6;
 }
-.bottom-column ul {
+.bottom-column ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -503,65 +493,59 @@ header nav ul li a{
     list-style: none;
 }
 
-.social-icons a {
-    margin-right: 20px; /* регулируй по макету */
+.social-icons a{
+    margin-right: 20px;
     display: inline-flex;
     align-items: center;
 }
-.social-icons a img {
+.social-icons a img{
     height: 24px;
     width: 24px;
     object-fit: contain;
     display: block;
 }
-
-
-
-.social-icons a:last-child {
+.social-icons a:last-child{
     margin-right: 0;
 }
 .bottom-column h4,
-.logo-column h4 {
-    font-size: 20px; /* регулируй по макету */
-    font-weight: 700; /* если нужен акцент */
-    margin: 0; /* сброс лишнего отступа */
+.logo-column h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
 }
 
 
 
 /*ФУТЕР*/
-.footer-bar {
+.footer-bar{
     background-color: #E4E5E9;
     padding: 20px 0;
     width: 100%;
     position: relative;
 }
 
-.footer-inner {
+.footer-inner{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px;
     position: relative;
 }
-.footer-inner p {
+.footer-inner p{
     padding-top: 25px;
     padding-bottom: 25px;
 
 }
-
-
-
-.footer-inner::before {
+.footer-inner::before{
     content: "";
     position: absolute;
     top: 0;
-    left: 40px; /* такой же отступ, как у .bottom-section */
+    left: 40px;
     right: 40px;
     height: 1px;
     background-color: #C0C0C0;
 }
 
-.footer-inner p {
+.footer-inner p{
     width: 137px;
     height: 18px;
     font-weight: 400;
@@ -569,9 +553,7 @@ header nav ul li a{
     color: #2B2C34;
     top: 391px;
     left: 95px;
-
     margin: 0;
-   
 }
 
 
