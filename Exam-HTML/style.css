@@ -76,7 +76,6 @@ header nav ul li a:hover{
     font-weight: 700;
     color: #2B2C34;
 }
-
 .coffee-button{
     width: 213px;
     height: 44px;
@@ -91,7 +90,7 @@ header nav ul li a:hover{
 .coffee-button:hover{
     background-color: #4400CC;
 }
-                   /*СЕЦИЯ ХИРО С ТЕКСТОМ И КАРТИНКОЙ*/
+
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -182,7 +181,6 @@ header nav ul li a:hover{
     max-width: 664px;
 }
 
-                                   /*категоріі*/
 .categories{
     margin-top: 67px;
     padding-top: 210px;
@@ -205,7 +203,6 @@ header nav ul li a:hover{
     height: 25px;
     font-weight: 700;
     color: #2B2C34;
-
 }
 .categories-header a:hover{
     color: #4f46e5;
@@ -225,11 +222,9 @@ header nav ul li a:hover{
     align-items: flex-start;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
 }
-
 .card:hover{
     background-color: #6246EA;
 }
-
 .card-content{
     display: flex;
     flex-direction: column;
@@ -240,7 +235,6 @@ header nav ul li a:hover{
     object-fit: cover;
 }
 
-                              /*Featured article*/
 .articles-wrapper{
     background-color: #FFFFFE;
     padding: 60px 40px;
@@ -269,7 +263,6 @@ header nav ul li a:hover{
 .article-content h3{
     margin-top: 15px;
 }
-
 .article:hover{
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
@@ -307,21 +300,17 @@ header nav ul li a:hover{
     color: #4f46e5;
 }
 
-                              /*<!--<-СЕКЦИЯ CSS-->*/
-
 .CSS-articles{
     margin-top: 50px;
 }
 
-                         /*<!--  СЕКЦИЯ ДЖАВАСКРИПТ-->*/
 .Javaskript-articles{
     margin-top: 100px;
 }
-                         /*<!--  СЕКЦИЯ REACT-->*/
 .React-articles{
     margin-top: 100px;
 }
-                          /*MORE ARTICLE BUTTON*/
+
 .more-article-button-wrapper{
     text-align: center;
     margin-top: 100px;
@@ -341,8 +330,6 @@ header nav ul li a:hover{
     background-color: #4400CC;
 }
 
-                        /*КРУЖОЕЧЕК С ПОЧТОВЫМ ЯЩИКОМ*/
-
 .circle-image{
     width: 130px;
     height: 130px;
@@ -356,7 +343,6 @@ header nav ul li a:hover{
     z-index: 1;
     margin: 0 auto;
 }
-
 .circle-image img{
     top: 23px;
     right: 24px;
@@ -366,7 +352,6 @@ header nav ul li a:hover{
     height: 106px;
     object-fit: contain;
 }
-                        /*ПОДПИШИСЬ С ПОЧТОВЫМ ЯЩИКОМ КОТОРАЯ */
 .subscribe-section-1{
     width: 1440px;
     height: 453px;
@@ -376,7 +361,6 @@ header nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-
 .subscribe-container{
     width: 100%;
     max-width: 760px;
@@ -387,8 +371,6 @@ header nav ul li a:hover{
     align-items: flex-start;
     gap: 16px;
 }
-
-                            /*ПОЧТОВЫЙ ЯЩИК В КРУЖОЧКЕ*/
 .postbox-icon{
     width: 100px;
     height: 100px;
@@ -397,7 +379,7 @@ header nav ul li a:hover{
 .postbox-circle{
     width: 130px;
     height: 130px;
-    background-color: #fff;
+    background-color: #FFFFFE;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -436,7 +418,6 @@ header nav ul li a:hover{
     border: none;
     outline: none;
 }
-
 .subscribe-form-1 input::placeholder{
     color: #C0C0C0;
     width: 219px;
@@ -459,9 +440,6 @@ header nav ul li a:hover{
     background-color: #4400CC;
 }
 
-
-
-                              /*БОТТОМ С КОЛОНКАМИ*/
 .bottom-section-wrapper{
     background: #E4E5E9;
     width: 100%;
@@ -533,14 +511,12 @@ header nav ul li a:hover{
     margin: 0;
 }
 
-/*ФУТЕР*/
 .footer-bar{
     background-color: #E4E5E9;
     padding: 20px 0;
     width: 100%;
     position: relative;
 }
-
 .footer-inner{
     max-width: 1440px;
     margin: 0 auto;
@@ -561,7 +537,6 @@ header nav ul li a:hover{
     height: 1px;
     background-color: #C0C0C0;
 }
-
 .footer-inner p{
     width: 137px;
     height: 18px;
