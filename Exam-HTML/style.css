@@ -61,7 +61,12 @@ header nav ul{
 header nav ul li a{
     font-family: "Plus Jacarta Sans", sans-serif;
     font-weight: 700;
+    font-size: 20px;
     color: #2B2C34;
+    transition: color 0.3s ease;
+}
+header nav ul li a:hover{
+    color: #4f46e5;
 }
 .search-button{
     display: flex;
@@ -75,7 +80,7 @@ header nav ul li a{
 .coffee-button{
     width: 213px;
     height: 44px;
-    border-radius: 10px;
+    border-radius: 8px;
     background: #6246EA;
     border: none;
     color: #FFF;
@@ -96,17 +101,15 @@ header nav ul li a{
 }
 .hero-left{
     flex: 1;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-top: 120px;
 }
-
 .hero-right{
-    padding-left: 40px;
+    padding-left: 30px;
     display: flex;
     justify-content: flex-end;
     padding-top: 120px;
 }
-
 .hero div h1{
     color: #19191B;
     font-size: 75px;
@@ -116,22 +119,23 @@ header nav ul li a{
     letter-spacing: -2.501px;
 }
 .hero div p{
-    color: #696871;
+    color: #9A9494;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.625px;
+    letter-spacing: 0;
     margin: 30px 0 50px 0;
     width: 664px;
     height: 56px;
     gap: 12px;
 }
-
 .hero img{
     width: 470px;
     height: 387px;
     opacity: 1;
+    top: 13px;
+    left: 18px;
 }
 .subscribe-form{
     display: flex;
@@ -141,7 +145,6 @@ header nav ul li a{
     width: 100%;
     height: 60px;
 }
-
 .subscribe-form input{
     flex: 1;
     height: 100%;
@@ -150,10 +153,14 @@ header nav ul li a{
     border-radius: 10px;
     font-size: 17px;
 }
+.subscribe-form input::placeholder{
+    color: #C0C0C0;
+    font-weight: 400;
+    font-size: 20px;
+}
 .subscribe-form input:focus{
     outline: none;
 }
-
 .subscribe-form button{
     height: 60px;
     width: 145px;
@@ -166,7 +173,6 @@ header nav ul li a{
     font-weight: 700;
     cursor: pointer;
 }
-
 .subscribe-form button:hover{
     background-color: #4400CC;
 }
@@ -260,6 +266,10 @@ header nav ul li a{
     overflow: hidden;
     transition: box-shadow 0.3s ease;
 }
+.article-content h3{
+    margin-top: 15px;
+}
+
 .article:hover{
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
@@ -513,8 +523,6 @@ header nav ul li a{
     font-weight: 700;
     margin: 0;
 }
-
-
 
 /*ФУТЕР*/
 .footer-bar{
