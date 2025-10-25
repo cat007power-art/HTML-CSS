@@ -172,9 +172,11 @@ header nav ul li a{
     padding-left: 12px;
     max-width: 664px;
 }
+
                                    /*категоріі*/
 .categories{
     margin-top: 67px;
+    padding-top: 210px;
     padding-bottom: 68px;
 }
 
@@ -254,8 +256,12 @@ header nav ul li a{
     padding: 24px;
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: none;
     overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+.article:hover{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .article-info{
