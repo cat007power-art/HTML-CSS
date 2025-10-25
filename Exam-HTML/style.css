@@ -239,11 +239,9 @@ header nav ul li a{
     background-color: #FFFFFE;
     padding: 60px 40px;
 }
-
 .featured-article{
     margin-top: 80px;
     padding-bottom: 68px
-
 }
 .article-grid{
     display: grid;
@@ -251,7 +249,6 @@ header nav ul li a{
     gap: 32px;
     margin-top: 24px;
 }
-
 .article{
     width: 300px;
     height: 425px;
@@ -266,7 +263,6 @@ header nav ul li a{
 .article:hover{
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-
 .article-info{
     position: absolute;
     top: 328px;
@@ -281,7 +277,6 @@ header nav ul li a{
     align-items: center;
     margin-bottom: 40px;
 }
-
 .section-link{
     width: 162px;
     height: 25px;
@@ -289,7 +284,6 @@ header nav ul li a{
     color: #2B2C34;
     transition: color 0.3s ease;
 }
-
 .section-link:hover{
     color: #4f46e5;
 }
@@ -377,22 +371,22 @@ header nav ul li a{
 
                             /*ПОЧТОВЫЙ ЯЩИК В КРУЖОЧКЕ*/
 .postbox-icon{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 .postbox-circle{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     margin: 0 auto 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding-bottom: 0;
 }
-
 .subscribe-title{
     width: 604px;
     height: 45px;
@@ -401,7 +395,6 @@ header nav ul li a{
     color: #0D0D0D;
     margin-bottom: 4px;
 }
-
 .subscribe-text{
     width: 696px;
     height: 25px;
@@ -410,7 +403,6 @@ header nav ul li a{
     color: #C0C0C0;
     margin-bottom: 12px;
 }
-
 .subscribe-form-1{
     display: flex;
     flex-wrap: wrap;
@@ -501,7 +493,6 @@ header nav ul li a{
     padding: 0;
     list-style: none;
 }
-
 .social-icons a{
     margin-right: 20px;
     display: inline-flex;
